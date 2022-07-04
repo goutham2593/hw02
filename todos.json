@@ -1,0 +1,28 @@
+[
+    {
+    "name": "shopping",
+    "toDos": ["Get groceries"]
+    },
+    {
+    "name": "chores",
+    "toDos": ["Make up some new ToDos"]
+    },
+    {
+    "name": "writing",
+    "toDos": ["Finish writing this book"]
+    },
+    {
+    "name": "work",
+    "toDos": ["Answer emails", "Finish writing this emails"]
+    },
+    {
+    "name": "teaching",
+    "toDos": ["Prep for Monday's class"]
+    },
+    {
+    "name": "pets",
+    "toDos": ["Take Gracie to the park"]
+    }
+   ]
+   
+   

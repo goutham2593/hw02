@@ -1,0 +1,73 @@
+.ama{
+  justify-content: start;
+  color: rgb(149, 28, 6);
+}
+.rightcolumn {
+    float: right;
+    width: 30%;
+}
+.pa{
+    text-decoration: none;
+}
+.main-button {     
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;    
+    outline: transparent;    
+    font-style: italic;
+}
+input{
+    width: 45%;
+}
+.center {
+    margin: auto;
+    width: 80%;
+    padding:50px;
+    
+  }
+  .textentry{
+    background-color: rgb(204, 203, 202);
+    padding: 4%;
+  }
+  footer{
+    height: 32vh;
+    background-size: cover;
+    justify-content: end;
+    background-color: rgb(47, 164, 206);
+    
+  }
+  .sitemap{
+  float: right;
+  width: 270px;
+  padding: 40px 0 20px 0;
+  justify-content: start;
+
+
+  }
+  .sitemap1{
+    float: left;
+    padding: 40px 0 20px 0;
+    width: 270px;
+  }
+  .sitemap2{
+
+    float: right;
+    width: 270px;
+
+  }
+
+  #successMessage {
+    color: green;
+    font-size: large;
+  }
+
+  #errorMessage {
+    color: red;
+    font-size: large;
+  }
+
+  .display-flex{
+    display: flex;
+  }

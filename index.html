@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="./index.js"></script>
+    <title>Amazerrific</title>
+
+</head>
+<body>
+    <header>
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="justify-content-start">
+        <h1 class=" ama">Amazerrific</h1>
+    </div>
+    
+       
+          <div class="container-fluid flex-row justify-content-end pa">
+            <nav>
+                <a href="#">Sign Up!</a> |
+                <a href="#">FAQ</a> |
+                <a href="#">Support</a>
+              </nav>
+          </div>
+     </nav>
+      
+  </div>
+</header>
+  <main class="center">
+  <div style="text-decoration: none">
+    <button class="btn btn-secondary" onclick="newestData()">
+      Newest
+    </button>
+    <button class="btn btn-secondary" onclick="showTagsData()">
+        oldest
+      </button>
+    </button>
+    <button class="btn btn-secondary" onclick="showTagsData()">
+        Tag
+      </button>
+
+      <button class="btn btn-secondary" onclick="showDataEntry()">
+        Add
+      </button>
+      <br/>
+      <div id="textentry" class="textentry">
+      <div id="entryFields">
+
+        <form class="row g-2">  
+          <div class="col-auto">
+            <label for="txtEnterDescription" class="visually-hidden">Description</label>
+            <input type="text" id="txtEnterDescription" class="form-control"  placeholder="Enter Description">
+          </div>       
+          <div class="col-auto">
+            <label for="txtEnterText" class="visually-hidden">tags</label>
+            <input type="text" id="txtEnterText" class="form-control"  placeholder="Enter tag value">
+          </div>
+          <div class="col-auto">
+            <button type="button" onclick="AddToList()" id="btnAdd" class="btn btn-primary mb-3">+</button>
+          </div>
+        </form>
+        
+      </div>
+      <br/>
+
+      <p id="successMessage"></p>
+      <p id="errorMessage"></p>
+
+      <div id="mainData" style="display: none;">
+        
+      </div>
+      
+    </div>
+</div>
+</main>
+<footer>
+  <div class="row">
+    <div class="col-md-3">
+      <div class="contact">
+        <h5>Contact Us</h5>
+        <p>Amazeriffic!<br/>
+           555 Fiftieth Street<br/>
+           Asheville, NC 28801</p>
+      </div>
+    </div>
+    <div class="col-md-6">
+
+    </div>
+    <div class="col-md-3">
+      <div>
+        <h5>Sitemap</h5>
+      <div class="display-flex">
+              <ul class="column-25">
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Privacy</li>
+              </ul> 
+              <ul class="column-25">
+                <li>Support</li>
+                <li>FAQ</li>
+                <li>Careers</li>
+              </ul> 
+            </div>
+        </div>  
+    </div>
+  </div>
+
+
+            
+</footer>
+</body>
+</html>
